@@ -1,0 +1,170 @@
+/*czcionka to releway*/
+/*~~ DOMYŚLNE USTAWIENIA ~~*/
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+html{
+  font-size: 10px;
+}
+/*~~ POMOCNICZE KLASY ~~*/
+.container{
+  width: 100%;
+  max-width: 1060px;
+}
+.container::before, .container::after{
+  content: "";
+  display: table;
+  clear: both;
+  margin: 0 auto;
+}
+
+/*~~ HEADER ~~*/
+.header{
+  background-color: #000;
+}
+.header h1{
+  font-size: 1.4rem;
+  font-weight: 600;
+  color: #fff;
+  width: 50%;
+  float: left;
+}
+.header h1 span{
+  color: #27c7ab;
+}
+.header nav{
+  width: 50%;
+  float: left;
+}
+.mainMenu{
+  list-style-type: none;
+  text-align: right;
+}
+.mainMenu li{
+  display: inline-block;
+  position: relative;
+}
+.mainMenu li a{
+  display: block;
+  color: #fff;
+  padding: 15px;
+  font-size: 1.4;
+  text-transform: uppercase;
+}
+.subMenu{
+  display: none;
+  position: absolute;
+  left: 0;
+  top: 135%;
+  /*top: calc(100% + 20px);*/
+  background-color: #000;
+  text-align: left;
+  z-index: 100;
+}
+/*.hasClidren:hover .subMenu{
+  display: block;
+}*/
+.hasClidren a:focus + .subMenu{
+  display: block;
+}
+.triangle{
+  position: absolute;
+  width: 0;
+  height: 0;
+  border: 10px solid transparent;
+  border-bottom: 15px solid black;
+  top: -25px;
+  left: calc(50% - 10%);
+}
+#slider{
+  min-height: 400px;
+  background: linear-gradient(#fafafa, #d0c7d7);
+  padding: 100px 0 50px 0;
+  position: relative;
+}
+#slider section{
+
+}
+#slider button:first-child{
+  font-size: 7.8rem;
+  color: #27c7ab;
+  position: absolute;
+  left: 20px;
+  top: calc(50% - 40px)
+}
+#slider button:nth-child(2){
+  font-size: 7.8rem;
+  color: #27c7ab;
+  position: absolute;
+  right: 20px;
+  top: calc(50% - 40px)
+}
+
+/*~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~*/
+
+#content{
+  width: 640px;
+  margin: 0 auto;
+  margin-bottom: 200px;
+  margin-top: 50px;
+}
+#content div{
+  width: 200px;
+  height: 300px;
+  background-color: grey;
+  float: left;
+  margin-right: 20px;
+  position: relative;
+  border-bottom: 15px solid green;
+  border-top: 15px solid red;
+  border-left: 15px solid yellow;
+  border-right: 15px solid black;
+}
+#content div:last-child{
+  margin: 0;
+}
+#content:before, #content:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+#content .round_out{
+  background-color: orange;
+  width: 60px;
+  height: 60px;
+  border-radius: 50%;
+  position: absolute;
+  top: -30px;
+  left: 70px;
+}
+#content .round_ins{
+  background-color: red;
+  width: 30px;
+  height: 30px;
+  border-radius: 50%;
+  position: absolute;
+  top: 15px;
+  left: 15px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/*asd*/
