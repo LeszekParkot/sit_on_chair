@@ -1,74 +1,165 @@
 <!DOCTYPE html>
 <html>
-  <head>
-    <meta charset="utf-8">
-    <title>Sit on chair</title>
-    <link rel="stylesheet" href="css/style.css">
-  </head>
-  <body>
-    <header class="header">
-      <div class="container">
-        <h1>Sit <span>on</span> chair</h1>
-        <nav>
-          <ul class="mainMenu">
-            <li class="hasClidren">
-              <a href="#">O firmie</a>
-              <ul class="subMenu">
-                <div class="triangle"></div>
-                <li><a href="#">Aktualności</a></li>
-                <li><a href="#">Nasz team</a></li>
-                <li><a href="#">Historia</a></li>
-              </ul>
-            </li>
-            <li><a href="#">Galeria</a></li>
-            <li><a href="#">Kontakt</a></li>
-          </ul>
-        </nav>
-      </div>
-    </header>
-    <section id="slider">
-      <button type="button" name="button"> < </button>
-      <button type="button" name="button"> > </button>
-      <img src="images/black_chair.png" alt="Wygodny fotel">
-      <section>
+<head>
+  <meta charset="utf-8">
+  <title>Sit on chair</title>
+  <link rel="stylesheet" href="css/style.css">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+</head>
+<body>
+  <div>
+  <header>
+    <div class="container">
+      <h1>Sit <span>on</span> chair</h1>
+      <nav>
+        <ul class="main_menu">
+          <li class="has_clidren">
+            <a href="#">O firmie</a>
+            <ul class="sub_menu">
+              <div class="triangle"></div>
+              <li><a href="#">Aktualności</a></li>
+              <li><a href="#">Nasz team</a></li>
+              <li><a href="#">Historia</a></li>
+            </ul>
+          </li>
+          <li><a href="#">Galeria</a></li>
+          <li><a href="#">Kontakt</a></li>
+        </ul>
+      </nav>
+    </div>
+  </header>
+  </div>
+  <section class="first_sec">
+    <div class="container">
+      <div class="chair"></div>
+      <div class="left_col">
         <h2>Sit <span>on</span> our <span>chair</span></h2>
         <p>
-          Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+          Lorem ipsum dolor sit amet enim. Etiam ullamcorper. Suspendisse a pellentesque dui, non felis. Maecenas malesuada elit lectus felis, malesuada ultricies. Curabitur et ligula. Ut molestie a, ultricies porta urna.
         </p>
-        <button type="button" name="button"></button>
-      </section>
-    </section>
-    <section id="content">
-      <div class="first">
-        <div class="round_out">
-          <div class="round_ins">
-
-          </div>
+        <button type="button" class="elo">Zobacz więcej</button>
+      </div>
+      <div class="buttons">
+        <button type="button"><</button>
+        <button type="button">></button>
+      </div>
+    </div>
+  </section>
+  <section class="second_sec">
+    <div class="container">
+      <div class="box1">
+        <div class="h3_bg">
+          <h3>Chair CLAIR</h3>
         </div>
       </div>
-      <div class="second">
-        <div class="round_out">
-          <div class="round_ins">
-
-          </div>
+      <div class="box2">
+        <div class="h3_bg">
+          <h3>Chair MARGARITA</h3>
         </div>
       </div>
-      <div class="third">
-        <div class="round_out">
-          <div class="round_ins">
-
+      <div class="box3">
+        <h3>Finds all inputs</h3>
+        <p>
+          Finds all inputs that are not checked and highlights the next sibling span. Notice there is no change when clicking the checkboxes since no click events have been linked.
+        </p>
+        <p>
+          Notice there is no change when clicking the checkboxes since no click events have been
+        </p>
+      </div>
+    </div>
+  </section>
+  <section class="third_sec">
+    <div class="container">
+      <h2>Cennik</h2>
+      <div class="boxes">
+        <div class="box1">
+          <div class="outside_circle">
+            <div class="inside_circle"></div>
           </div>
+          <h3>Basic plan</h3>
+          <div class="price_circle">
+            <p>85<sup>99</sup></p>
+            <p>pln/msc</p>
+          </div>
+          <div class="services">
+            <p>Zakup towaru + dowóz</p>
+            <p>Servis</p>
+          </div>
+          <button type="button">Dołącz</button>
+        </div>
+        <div class="box2">
+          <div class="outside_circle">
+            <div class="inside_circle"></div>
+          </div>
+          <h3>Standard plan</h3>
+          <div class="price_circle">
+            <p>95<sup>99</sup></p>
+            <p>pln/msc</p>
+          </div>
+          <div class="services">
+            <p>Zakup towaru + dowóz</p>
+            <p>Servis</p>
+            <p>Gwarancja 5 lat</p>
+          </div>
+          <button type="button">Dołącz</button>
+        </div>
+        <div class="box3">
+          <div class="outside_circle">
+            <div class="inside_circle"></div>
+          </div>
+          <h3>Advance plan</h3>
+          <div class="price_circle">
+            <p>211<sup>00</sup></p>
+            <p>pln/msc</p>
+          </div>
+          <div class="services">
+            <p>Zakup towaru + dowóz</p>
+            <p>Servis</p>
+            <p>Gwarancja 6 lat</p>
+            <p>Porady projektanta</p>
+          </div>
+          <button type="button">Dołącz</button>
         </div>
       </div>
-    </section>
-    <section id="prices">
-
-    </section>
-    <section id="contact">
-
-    </section>
-    <footer>
-
-    </footer>
-  </body>
+    </div>
+  </section>
+  <section class="fourth_sec">
+    <div class="container">
+      <h3>Kontakt</h3>
+      <div class="sub_cont1">
+        <form>
+          <input type="text" placeholder="Imię" name="imie">
+          <input type="email" placeholder="email" name="email">
+          <textarea placeholder="Wiadomość" name="wiadomosc"></textarea>
+        </form>
+        <div class="sub_cont2">
+          <div class="red_chair"></div>
+          <div class="ok"></div>
+          <p>
+            Zgadzam się na przetwarzanie danych osobowych
+          </p>
+          <button type="submit">Wyślij</button>
+        </div>
+      </div>
+    </div>
+  </section>
+  <footer>
+    <div class="container">
+      <p class="copy">
+        Copyright 2014 | All Rights Reserved. - Sit on Chair
+      </p>
+      <div class="sub_cont1">
+        <div>
+          <img src="images\flickr.png" alt="flickr">
+          <img src="images\vimeo.png" alt="vimeo">
+          <img src="images\pinterest.png" alt="pinterest">
+          <img src="images\twitter.png" alt="twitter">
+        </div>
+        <p>
+          Sit <span>on</span> chair
+        </p>
+      </div>
+    </div>
+  </footer>
+</body>
 </html>
